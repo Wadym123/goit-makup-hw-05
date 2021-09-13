@@ -78,6 +78,10 @@ ul {
   background-color: #2196f3;
   color: var(--primary-bg-color);
 }
+.element .part.current {
+  background-color: #2196f3;
+  color: var(--primary-bg-color);
+}
 
 .footer {
   background-color: #2f303a;
