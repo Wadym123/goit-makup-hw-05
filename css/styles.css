@@ -26,6 +26,7 @@ ul {
 }
 
 .logo {
+  color: var(--primary-text-color);
   text-decoration: none;
   font-family: Raleway, cursive;
 
@@ -61,6 +62,7 @@ ul {
 
 .auth-nav a {
   color: var(--primary-text-color);
+  text-decoration: none;
 
   font-weight: 500;
   font-size: 14px;
@@ -147,6 +149,7 @@ ul {
   color: var(--primary-text-color);
   cursor: pointer;
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.16;
@@ -163,13 +166,12 @@ ul {
   color: var(--primary-bg-color);
 }
 
-.category .name {
+.name {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2;
+  line-height: 36px;
   letter-spacing: 0.06em;
 }
-
 .popup {
   color: var(--title-text-color);
 
@@ -189,6 +191,18 @@ ul {
 
 .footer .adress {
   color: var(--primary-bg-color);
+  text-decoration: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.auth a {
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 
   font-family: Roboto;
