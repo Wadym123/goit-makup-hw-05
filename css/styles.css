@@ -4,7 +4,6 @@
 /* акцент #2196F3 */
 /* белый цыет #FFFFFF */
 /* черный лого #000000 */
-
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
@@ -25,6 +24,7 @@
 ul {
   list-style: none;
 }
+
 .logo {
   text-decoration: none;
   font-family: Raleway, cursive;
@@ -34,6 +34,7 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .logo .accent {
   color: var(--accent-text-color);
 }
@@ -48,10 +49,12 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-text-color);
 }
+
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
@@ -68,9 +71,11 @@ ul {
 .auth-nav a:hover {
   color: var(--accent-text-color);
 }
+
 .auth-nav .link.current {
   color: var(--accent-text-color);
 }
+
 .hero {
   background-color: #2f303a;
   color: var(--primary-bg-color);
@@ -78,23 +83,20 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 .button {
   background-color: #2196f3;
   color: var(--primary-bg-color);
-  font-family: inherit;
+  cursor: pointer;
 
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -106,9 +108,11 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
+
 .feature-list .text {
   color: var(--title-text-color);
 }
+
 .section-title {
   color: var(--primary-text-color);
 
@@ -127,7 +131,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-
   letter-spacing: 0.03em;
 }
 
@@ -137,23 +140,24 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-
   letter-spacing: 0.03em;
 }
 
 .category .part {
   color: var(--primary-text-color);
+  cursor: pointer;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.16;
-
   letter-spacing: 0.03em;
 }
+
 .category .part:hover {
   background-color: #2196f3;
   color: var(--primary-bg-color);
 }
+
 .category .part.current {
   background-color: #2196f3;
   color: var(--primary-bg-color);
@@ -163,7 +167,6 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-
   letter-spacing: 0.06em;
 }
 
@@ -173,9 +176,9 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-
   letter-spacing: 0.03em;
 }
+
 .footer {
   background-color: #2f303a;
 }
@@ -183,6 +186,7 @@ ul {
 .footer .logo {
   color: var(--primary-bg-color);
 }
+
 .footer .adress {
   color: var(--primary-bg-color);
   text-decoration: none;
@@ -192,6 +196,5 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-
   letter-spacing: 0.03em;
 }
