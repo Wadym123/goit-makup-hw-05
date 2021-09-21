@@ -24,11 +24,11 @@
 ul {
   list-style: none;
 }
+
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  outline: 2px solid tomato;
 }
 
 .logo {
@@ -179,6 +179,10 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.category {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
 .category .part {
   display: inline-block;
   border-radius: 4px;
@@ -207,13 +211,25 @@ ul {
   color: var(--primary-bg-color);
 }
 
+.content {
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 94px;
+}
+
 .name {
+  margin-top: 20px;
+  margin-bottom: 0;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
 }
 .popup {
+  margin-top: 4px;
+  margin-bottom: 0;
+
   color: var(--title-text-color);
 
   font-weight: 400;
@@ -223,8 +239,8 @@ ul {
 }
 
 .footer {
-  margin-top: 0;
-  margin-bottom: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
@@ -232,6 +248,11 @@ ul {
   color: var(--primary-bg-color);
 }
 
+.auth {
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
 .footer .adress {
   color: var(--primary-bg-color);
   text-decoration: none;
@@ -245,6 +266,8 @@ ul {
 }
 
 .auth a {
+  padding-bottom: 9px;
+
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 
@@ -254,8 +277,4 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
-.auth {
-  margin-top: 0;
-  margin-bottom: 0;
 }
