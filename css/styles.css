@@ -48,9 +48,9 @@ ul {
 
 /* site nav */
 .site-nav {
-  display: flex;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .site-nav .link {
