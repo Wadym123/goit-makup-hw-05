@@ -47,6 +47,12 @@ ul {
 }
 
 /* site nav */
+.site-nav {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
 .site-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;
