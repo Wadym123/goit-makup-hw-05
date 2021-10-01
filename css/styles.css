@@ -68,7 +68,6 @@ ul {
 .site-nav .link {
   display: block;
   margin: 0;
-  padding: 0;
 
   color: var(--primary-text-color);
   text-decoration: none;
@@ -95,7 +94,6 @@ ul {
 .auth-nav .link {
   display: block;
   margin: 0;
-  padding: 0;
 }
 .auth-nav a {
   color: var(--primary-text-color);
