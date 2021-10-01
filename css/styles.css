@@ -26,6 +26,9 @@
 .main-nav {
   display: flex;
   align-items: center;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 ul {
   list-style: none;
@@ -64,8 +67,8 @@ ul {
 }
 .site-nav .link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin: 0;
+  padding: 0;
 
   color: var(--primary-text-color);
   text-decoration: none;
@@ -91,8 +94,8 @@ ul {
 }
 .auth-nav .link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin: 0;
+  padding: 0;
 }
 .auth-nav a {
   color: var(--primary-text-color);
