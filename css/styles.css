@@ -89,7 +89,7 @@ ul {
 .auth-nav {
   display: flex;
   padding: 0;
-  margin-left: 331px;
+  margin-left: auto;
 }
 .auth-nav .link {
   display: block;
@@ -116,11 +116,21 @@ ul {
 }
 
 .hero {
-  text-align: center;
-  background-color: #2f303a;
+  max-width: 1600px;
+  height: 480px;
+  background-color: #c4c4c4;
 
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
+
+  background-image: url("../images/overlay.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
@@ -178,11 +188,11 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
-
 .feature-list .text {
   margin: 0;
   color: var(--title-text-color);
 }
+
 .section-picture {
   margin: 0;
   padding-bottom: 94px;
@@ -310,6 +320,8 @@ ul {
 }
 .content .item > img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .content .item:nth-child(3n) {
   margin-right: 0;
