@@ -110,7 +110,6 @@ ul {
 .auth-nav a:hover {
   color: var(--accent-text-color);
 }
-
 .auth-nav .link.current {
   color: var(--accent-text-color);
 }
@@ -385,6 +384,22 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+
+.company {
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.company-title {
+  margin: 0;
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
