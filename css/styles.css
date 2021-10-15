@@ -196,15 +196,12 @@ ul {
   background-image: url(../images/attentiveness.jpeg);
 }
 .feature-list .icon-punctuality::before {
-  background-size: contain;
   background-image: url(../images/punctuality.jpeg);
 }
 .feature-list .icon-planning::before {
-  background-size: contain;
   background-image: url(../images/planning.jpeg);
 }
 .feature-list .icon-technologies::before {
-  background-size: contain;
   background-image: url(../images/technologies.jpeg);
 }
 
@@ -297,6 +294,68 @@ ul {
   text-align: center;
   margin: 0;
 }
+
+.company {
+  display: flex;
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.company-title {
+  margin: 0;
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.company-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.company-list .item {
+  flex-basis: 270px;
+  margin-right: 30px;
+  margin-top: 50px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.company-list .item:last-child {
+  margin-right: 0;
+}
+.company-list .item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background: #f5f4fa;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.company-list .icon-ya-co::before {
+  background-size: contain;
+  background-image: url(../images/ya-co.jpeg);
+}
+.company-list .icon-targline::before {
+  background-image: url(../images/targline.jpeg);
+}
+.company-list .icon-company::before {
+  background-image: url(../images/company.jpeg);
+}
+.company-list .icon-foster::before {
+  background-image: url(../images/forster.jpeg);
+}
+.company-list .icon-brand::before {
+  background-image: url(../images/brand.jpeg);
+}
+.company-list .icon-teg::before {
+  background-image: url(../images/tag.jpeg);
+}
 .category-content {
   margin: 0;
   padding-top: 94px;
@@ -384,22 +443,6 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  letter-spacing: 0.03em;
-}
-
-.company {
-  margin: 0;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.company-title {
-  margin: 0;
-  color: var(--primary-text-color);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
