@@ -113,7 +113,22 @@ ul {
 .auth-nav .link.current {
   color: var(--accent-text-color);
 }
-
+.auth-nav .link::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.auth-nav .icon-mail::before {
+  background-image: url(../images/mail.jpeg);
+}
+.auth-nav .icon-phone::before {
+  background-image: url(../images/phone.jpeg);
+}
 .hero {
   max-width: 1600px;
   height: 480px;
@@ -297,10 +312,10 @@ ul {
   text-align: center;
   margin: 0;
 }
-.section-command .item::after {
+.comand .item::after {
   display: block;
   content: "";
-  width: 206px;
+  width: 44px;
   height: 44px;
   outline: 1px solid red;
   background: #ffffff;
@@ -312,7 +327,10 @@ ul {
   margin-left: 32px;
   margin-bottom: 30px;
 }
-
+.comand .icon-insta {
+  background-size: contain;
+  background-image: url(../images/insta.jpeg);
+}
 .company {
   display: flex;
   margin: 0;
