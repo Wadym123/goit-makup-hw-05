@@ -95,7 +95,7 @@ ul {
   display: block;
   margin: 0;
 }
-.auth-nav a {
+.auth-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;
 
@@ -107,13 +107,13 @@ ul {
 .auth-nav .item:not(:last-child) {
   margin-right: 50px;
 }
-.auth-nav a:hover {
+.auth-nav .item:hover {
   color: var(--accent-text-color);
 }
-.auth-nav .link.current {
+.auth-nav .item.current {
   color: var(--accent-text-color);
 }
-.auth-nav .link::before {
+.auth-nav .link {
   content: "";
   display: inline-block;
   width: 16px;
@@ -123,12 +123,7 @@ ul {
   background-repeat: no-repeat;
   margin-right: 10px;
 }
-.auth-nav .icon-mail::before {
-  background-image: url(../images/mail.jpeg);
-}
-.auth-nav .icon-phone::before {
-  background-image: url(../images/phone.jpeg);
-}
+
 .hero {
   max-width: 1600px;
   height: 480px;
@@ -209,16 +204,16 @@ ul {
   margin-bottom: 30px;
 }
 .feature-list .icon-attentiveness::before {
-  background-image: url(../images/attentiveness.jpeg);
+  background-image: url(../images/attentiviness.svg);
 }
 .feature-list .icon-punctuality::before {
-  background-image: url(../images/punctuality.jpeg);
+  background-image: url(../images/punktuality.svg);
 }
 .feature-list .icon-planning::before {
-  background-image: url(../images/planning.jpeg);
+  background-image: url(../images/planning.svg);
 }
 .feature-list .icon-technologies::before {
-  background-image: url(../images/technologies.jpeg);
+  background-image: url(../images/technologis.svg);
 }
 .feature-list .title {
   margin: 0;
@@ -380,22 +375,22 @@ ul {
   border-radius: 4px;
 }
 .company-list .icon-ya::before {
-  background-image: url(../images/ya.jpeg);
+  background-image: url(../images/ya.svg);
 }
 .company-list .icon-targline::before {
-  background-image: url(../images/company-tagline.jpeg);
+  background-image: url(../images/company-tagline.svg);
 }
 .company-list .icon-company::before {
-  background-image: url(../images/company.jpeg);
+  background-image: url(../images/company.svg);
 }
 .company-list .icon-foster::before {
-  background-image: url(../images/foster.jpeg);
+  background-image: url(../images/foster.svg);
 }
 .company-list .icon-brand::before {
-  background-image: url(../images/brand.jpeg);
+  background-image: url(../images/brand.svg);
 }
 .company-list .icon-teg::before {
-  background-image: url(../images/tagline.jpeg);
+  background-image: url(../images/tagline.svg);
 }
 
 .category-content {
