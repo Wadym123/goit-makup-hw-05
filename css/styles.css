@@ -95,7 +95,8 @@ ul {
   display: block;
   margin: 0;
 }
-.auth-nav .link {
+
+.auth-nav .adres {
   color: var(--primary-text-color);
   text-decoration: none;
 
@@ -107,21 +108,20 @@ ul {
 .auth-nav .item:not(:last-child) {
   margin-right: 50px;
 }
-.auth-nav .item:hover {
+.auth-nav .mail.current {
   color: var(--accent-text-color);
 }
-.auth-nav .item.current {
-  color: var(--accent-text-color);
-}
-.auth-nav .link {
-  content: "";
-  display: inline-block;
+
+.auth-nav .auth-icon {
   width: 16px;
-  height: 14px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 12px;
+
   margin-right: 10px;
+}
+
+.auth-nav .auth-icon:hover,
+.auth-nav .auth-icon:focus {
+  color: var(--accent-text-color);
 }
 
 .hero {
@@ -203,18 +203,7 @@ ul {
 
   margin-bottom: 30px;
 }
-.feature-list .icon-attentiveness::before {
-  background-image: url(../images/attentiviness.svg);
-}
-.feature-list .icon-punctuality::before {
-  background-image: url(../images/punktuality.svg);
-}
-.feature-list .icon-planning::before {
-  background-image: url(../images/planning.svg);
-}
-.feature-list .icon-technologies::before {
-  background-image: url(../images/technologis.svg);
-}
+
 .feature-list .title {
   margin: 0;
   margin-bottom: 10px;
@@ -286,7 +275,9 @@ ul {
 .meta-info {
   margin: 0;
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .section-command .meta {
   font-weight: 500;
@@ -308,14 +299,38 @@ ul {
   letter-spacing: 0.03em;
 
   text-align: center;
-  margin: 0;
+  margin: 0, 0, 0, 16px;
 }
+.social-list {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0px;
+}
+.social-list-icon {
+  width: 20px;
+  height: 16px;
+}
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-text-color);
+  fill: #ffffff;
+}
+
+/*
 .comand .item::after {
   display: block;
   content: "";
   width: 44px;
   height: 44px;
-  outline: 1px solid red;
   background: #ffffff;
   background-size: contain;
   background-repeat: no-repeat;
@@ -325,10 +340,8 @@ ul {
   margin-left: 32px;
   margin-bottom: 30px;
 }
-.comand .icon-insta {
-  background-size: contain;
-  background-image: url(../images/insta.jpeg);
-}
+*/
+
 .company {
   display: flex;
   margin: 0;
