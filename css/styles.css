@@ -92,7 +92,7 @@ ul {
   margin-left: auto;
 }
 .auth-nav .link {
-  display: block;
+  display: flex;
   margin: 0;
 }
 
@@ -119,8 +119,8 @@ ul {
   margin-right: 10px;
 }
 
-.auth-nav .auth-icon:hover,
-.auth-nav .auth-icon:focus {
+.auth-nav .adres:hover,
+.auth-nav .adres:focus {
   color: var(--accent-text-color);
 }
 
@@ -191,18 +191,33 @@ ul {
   margin-right: 0;
 }
 
+.feauture-list-icon{
+  width: 63px;
+  height: 70px;
+}
+.feature-border{
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  margin-bottom: 30px;
+
+  align-items: center;
+  justify-content: center;
+}
+/*
 .feature-list .item::before {
   display: block;
   content: "";
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 
   margin-bottom: 30px;
 }
+*/
 
 .feature-list .title {
   margin: 0;
@@ -311,6 +326,7 @@ ul {
   width: 20px;
   height: 16px;
 }
+
 .social-list-link {
   display: flex;
   align-items: center;
@@ -324,23 +340,6 @@ ul {
   background-color: var(--accent-text-color);
   fill: #ffffff;
 }
-
-/*
-.comand .item::after {
-  display: block;
-  content: "";
-  width: 44px;
-  height: 44px;
-  background: #ffffff;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  margin-right: 32px;
-  margin-left: 32px;
-  margin-bottom: 30px;
-}
-*/
 
 .company {
   display: flex;
@@ -363,47 +362,31 @@ ul {
   padding: 0;
   margin: 0;
 }
-.company-list .item {
-  width: calc((100% - 150px) / 6);
-  margin-right: 30px;
-  margin-top: 50px;
-}
-.company-list .item:last-child {
-  margin-right: 0;
-}
-.company-list .item-icon {
-  width: 60px;
-  height: 106px;
-}
-.company-list .item::before {
-  display: block;
-  content: "";
+.company-list-link {
+  display: flex;
+  width: 170px;
   height: 92px;
-
-  background-repeat: no-repeat;
-  background-position: center;
 
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+
+  align-items: center;
+  justify-content: center;
 }
-.company-list .icon-ya::before {
-  background-image: url(../images/ya.svg);
+
+.company-list-item {
+  width: calc((100% - 150px) / 6);
+  margin-right: 30px;
+  margin-top: 50px;
 }
-.company-list .icon-targline::before {
-  background-image: url(../images/company-tagline.svg);
+.company-list-link:last-child {
+  margin-right: 0;
 }
-.company-list .icon-company::before {
-  background-image: url(../images/company.svg);
-}
-.company-list .icon-foster::before {
-  background-image: url(../images/foster.svg);
-}
-.company-list .icon-brand::before {
-  background-image: url(../images/brand.svg);
-}
-.company-list .icon-teg::before {
-  background-image: url(../images/tagline.svg);
+.company-list-link:hover
+.company-list-link:focus {
+  stroke: #2196F3;
+
 }
 
 .category-content {
@@ -457,6 +440,13 @@ ul {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+
+}
+.content .item:hover{
+  border: 1px solid #EEEEEE;
+  border-radius: 0px 0px 4px 4px;
+
+  box-shadow: 1px, 4px rgba(0, 0, 0, 0.16), 0px, 4px rgba(0, 0, 0, 0.06). 0px, 1px rgba(0, 0, 0, 0.12);
 }
 .content .item > img {
   display: block;
@@ -511,6 +501,7 @@ ul {
   margin-bottom: 0;
 }
 .footer .adress {
+  display: flex;
   color: var(--primary-bg-color);
   text-decoration: none;
 
@@ -521,7 +512,9 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
+.auth-icon {
+  display: flex;
+}
 .auth p {
   margin-bottom: 9px;
 
@@ -546,7 +539,36 @@ ul {
   text-transform: uppercase;
 
   font-weight: 700;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+
+  margin-bottom: 17px;
 }
+.sociall-list {
+  display: flex;
+
+  padding: 0px;
+  margin-left: 20px;
+}
+.sociall-list-icon {
+  width: 20px;
+  height: 16px;
+  fill: #ffffff;
+}
+.sociall-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  margin-left: 10px;
+}
+.sociall-list-link:hover {
+  background-color: var(--accent-text-color);
+
+
