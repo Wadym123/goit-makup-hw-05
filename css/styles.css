@@ -495,12 +495,8 @@ ul {
 .footer .logo {
   color: var(--primary-bg-color);
 }
-.auth {
-  padding: 0;
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-.footer .adress {
+
+.footer .adress-list {
   display: flex;
   color: var(--primary-bg-color);
   text-decoration: none;
@@ -511,12 +507,13 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  margin-top: 11px;
 }
-.auth-icon {
-  display: flex;
-}
-.auth p {
-  margin-bottom: 9px;
+
+.auth  p {
+  margin: 0;
+  padding-top: 9px;
 
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -528,12 +525,19 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.social {
+
+.auth{
   display: flex;
-  padding: 0;
-  margin-left: 0;
+  margin: 0px;
+  padding: 0px;
 }
-.social-title {
+
+.sociall{
+  margin-left: 33px;
+  padding: 0;
+  align-content:flex-start;
+}
+.sociall-title {
   margin: 0;
   color: var(--primary-bg-color);
   text-transform: uppercase;
@@ -544,7 +548,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
 
-  margin-bottom: 17px;
+  padding-bottom: 17px;
 }
 .sociall-list {
   display: flex;
