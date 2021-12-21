@@ -527,8 +527,9 @@ ul {
 .sociall{
   margin-left: 33px;
   padding: 0;
-  align-content:flex-start;
+
 }
+
 .sociall-title {
   margin: 0;
   color: var(--primary-bg-color);
@@ -541,7 +542,9 @@ ul {
   letter-spacing: 0.03em;
 
   padding-bottom: 17px;
+
 }
+
 .sociall-list {
   display: flex;
 
